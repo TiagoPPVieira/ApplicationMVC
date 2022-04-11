@@ -1,4 +1,4 @@
-﻿using ApplicationMVC.Models;
+﻿using ApplicationMVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -29,6 +29,8 @@ namespace ApplicationMVC.Controllers
         }
         public IActionResult About()
         {
+            ViewData["Message"] = "Cadê?";
+
             return View();
         }
 

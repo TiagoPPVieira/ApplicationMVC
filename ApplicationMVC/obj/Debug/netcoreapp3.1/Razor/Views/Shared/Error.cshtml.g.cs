@@ -22,7 +22,7 @@ using ApplicationMVC;
 #nullable restore
 #line 2 "C:\Users\tiago\source\repos\ApplicationMVC\ApplicationMVC\Views\_ViewImports.cshtml"
 using ApplicationMVC.Models;
-
+    using ApplicationMVC.Models.ViewModels;
 #line default
 #line hidden
 #nullable disable
