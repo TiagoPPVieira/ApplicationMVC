@@ -12,9 +12,10 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+    using ApplicationMVC.Models.ViewModels;
 #nullable restore
 #line 1 "C:\Users\tiago\source\repos\ApplicationMVC\ApplicationMVC\Views\_ViewImports.cshtml"
-using ApplicationMVC;
+    using ApplicationMVC;
 
 #line default
 #line hidden
@@ -22,6 +23,7 @@ using ApplicationMVC;
 #nullable restore
 #line 2 "C:\Users\tiago\source\repos\ApplicationMVC\ApplicationMVC\Views\_ViewImports.cshtml"
 using ApplicationMVC.Models;
+
 
 #line default
 #line hidden
