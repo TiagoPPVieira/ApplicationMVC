@@ -28,7 +28,8 @@ namespace ApplicationMVC
             services.AddControllersWithViews();
 
             services.AddDbContext<ApplicationMVCContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationMVCContext")));
+                    options.UseMySql(Configuration.GetConnectionString("ApplicationMVCContext"), builder =>
+                    builder.MigrationsAssembly("ApplicationMVC")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
